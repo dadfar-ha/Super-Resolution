@@ -19,7 +19,7 @@ class ResidualDenseBlock(n.Module):
         block3 = self.lrelu(self.conv3(torch.cat((block2, block1, x), dim = 1)))
         block4 = self.lrelu(self.conv4(torch.cat((block3, block2, block1, x), dim = 1)))
         out = self.conv5(torch.cat((block4, block3, block2, block1, x), dim = 1))
-        
+        #noise should be added in this line if you want
         return x + self.b * out
 
 class ResidualInResidualDenseBlock(n.Module):
