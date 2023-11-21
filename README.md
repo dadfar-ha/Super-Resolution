@@ -20,4 +20,4 @@ In this image we can see the updated architecture of RRDBs
 
 The whole structure of Generator is depicted as top:
 
-If you are any question, do not hesitate and contact me by email: dadfar.abyazi@gmail.com 
+If you are any question, do not hesitate and contact me by email: dadfar@hafez.shirazu.ac.ir & dadfar.abyazi@gmail.com 
